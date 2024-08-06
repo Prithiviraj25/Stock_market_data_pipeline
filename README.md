@@ -7,14 +7,14 @@ This is a end-to-end data engineering project on stock market data.
 <img src="Architecture.jpg">
 
 ## Tech-Stack
-   - Programming Language - Python
-   - Amazon Web Service (AWS)
-    1. S3 (Simple Storage Service)
-    2. Athena
-    3. Glue Crawler
-    4. Glue Catalog
-    5. EC2
-    - Apache Kafka
+- Programming Language - Python
+- Amazon Web Service (AWS)
+1. S3 (Simple Storage Service)
+2. Athena
+3. Glue Crawler
+4. Glue Catalog
+5. EC2
+- Apache Kafka
 
 ## methodology
 
