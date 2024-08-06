@@ -38,3 +38,9 @@ The complete computation is done on __AWS EC2__.
 reffer to video below to see how the producer and consumer works and data flows.
 <iframe width="560" height="315" src="https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/producer_consumer.mov" frameborder="0" allowfullscreen></iframe>
 
+and 
+
+<iframe width="560" height="315" src="https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/consumer_data pasing.mov" frameborder="0" allowfullscreen></iframe>
+
+
+
