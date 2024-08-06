@@ -1,4 +1,4 @@
-# STOCK MARKET DATAPIPLINE 
+# STOCK MARKET DATAPIPLINE USING AWS 
 
 This is a end-to-end data engineering project on stock market data.
 
@@ -16,7 +16,7 @@ This is a end-to-end data engineering project on stock market data.
 5. EC2
 - Apache Kafka
 
-## methodology
+## Methodology
 
 Here for the data i have used a csv file.
 now from this csv file using kafka i am using a producer program to produce the data in the json format and the consumer program will dump this data in __AWS S3 BUCKET__
@@ -36,11 +36,17 @@ This is the simple pipeline where real time data can be used to be stored in a d
 The complete computation is done on __AWS EC2__.
 
 reffer to video below to see how the producer and consumer works and data flows.
-<iframe width="560" height="315" src="https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/producer_consumer.mov" frameborder="0" allowfullscreen></iframe>
-
+[https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/producer_consumer.mov]
 and 
 
-<iframe width="560" height="315" src="https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/consumer_data pasing.mov" frameborder="0" allowfullscreen></iframe>
+["https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/consumer_datapasing.mov"]
 
 
+# Dataset
 
+The dataset is a csv file [https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/data/indexProcessed.csv] but we can also use web API for real time data 
+
+# Scripts
+
+PRODUCER: [https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/KAFKA_PRODUCER.ipynb]
+CONSUMER: [https://github.com/Prithiviraj25/Stock_market_data_pipeline/blob/main/KAFKA_CONSUMER.ipynb]
